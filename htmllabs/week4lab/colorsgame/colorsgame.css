@@ -1,0 +1,119 @@
+#colorValue{
+    font-size: 3em;
+    margin-bottom: 2px;
+}
+
+#toolBarButtonsDiv{
+
+    margin:auto;
+    width: 50%;
+    text-align: center;
+}
+
+#leftToolBox{
+    margin-right: 10%;
+    display: inline;
+}
+
+#gameResult{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
+}
+
+#rightTools{
+    display: inline;
+    text-align: right;
+    margin-left: 0;
+    margin-left: 10%;
+}
+
+
+#easyDifficulty{
+    margin:0 2px;
+}
+
+#hardDifficulty{
+    margin:0 2px;
+}
+
+
+
+
+#gameDeck{
+    background-color: rgb(49, 51, 56);
+}
+
+#divsContainer{
+    width: 50%;
+    margin:auto;
+
+    /*padding-top: 1.5%;*/
+    /*display:flex;*/
+    /*flex-wrap:wrap;*/
+    /*justify-content:center;*/
+
+}
+
+.row{
+    padding-top: 1.5%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;    
+    
+}
+
+.easyDiv, .hardDiv{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    border-radius: 20px;
+    margin:5px;
+}
+
+.invisible{
+    opacity: 0;
+}
+
+.activeDifficulty
+{
+    color:white;
+    background-color:rgb(66, 134, 244) ;
+}
+
+
+
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color:rgb(66, 134, 244);
+    color:white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+h5{
+    margin-top: 2px;
+    margin-bottom: 0;
+    padding-bottom:10px;
+    font-size: 1.2em;
+}
+
+section{
+    /*background-color: green;*/
+    margin:0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(66, 134, 244);
+}
+
+
+
