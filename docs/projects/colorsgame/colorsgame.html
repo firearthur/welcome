@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Colors Game</title>
+        <link rel="stylesheet" href="colorsgame.css" type="text/css" />
+    </head>
+    <body>
+    <header>
+        <article>
+            <h1 id="colorValue">This is junk</h1>
+            <h5>COLOR GAME</h5>
+        </article>
+    </header>
+    <section id="toolBar">
+        <div id="toolBarButtonsDiv">
+            <div id="leftToolBox">
+                <a href="#" id="leftTool">NEW COLORS</a>    
+            </div>
+            <span id="gameResult" class="invisible">Result</span>
+            <div id="rightTools">
+                <a href="#" id="easyDifficulty" class="activeDifficulty">EASY</a>
+                <a href="#" id="hardDifficulty">HARD</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="gameDeck">
+        <div id="divsContainer">
+            <div class="row">
+                <div class="easyDiv colorDiv"></div>
+                <div class="easyDiv colorDiv"></div>
+                <div class="easyDiv colorDiv"></div>
+            </div>
+            <div id="hardRow" class="row invisible">
+                <div class="hardDiv colorDiv"></div>
+                <div class="hardDiv colorDiv"></div>
+                <div class="hardDiv colorDiv"></div>
+            </div>            
+        </div>
+    </section>
+    
+    <script type="text/javascript" src="colorsgame.js"></script>
+    </body>
+</html>
