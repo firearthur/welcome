@@ -1,3 +1,14 @@
+@font-face {
+    font-family: gothicModern;
+    src: url(../fonts/effectivepower.otf);
+}
+
+#initialsLogo{
+    font-family: gothicModern,Helvetica , sans-serif;
+    font-size:2em;
+}
+
+
 #welcomeTitle{
  font-size: 6em;   
 }
@@ -37,3 +48,4 @@ figcaption{
 img{
     
 }
+
