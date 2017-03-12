@@ -45,7 +45,37 @@ figcaption{
     font-weight: bold;
 }
 
-img{
-    
+
+li:hover{
+    color:green;
+
 }
+
+img{
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.description {
+  font-family: "Lato",sans-serif;
+  font-size: 1.2em;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+
+.imgDiv:hover img {
+  opacity: 0.3;
+}
+
+.imgDiv:hover .description {
+  opacity: 1;
+}
+    
+
 
