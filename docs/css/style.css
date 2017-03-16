@@ -5,6 +5,19 @@
     
 }
 
+@font-face {
+    font-family: polya;
+    src: url(../fonts/polya.otf);
+
+}
+
+@font-face {
+    font-family: aqua;
+    src: url(../fonts/aqua.ttf);
+
+    
+}
+
 
 
 #initialsLogo{
@@ -14,7 +27,8 @@
 
 
 #welcomeTitle{
- font-size: 5em;   
+    font-family: polya, Helvetica,sans-serif;
+    font-size: 5em;   
 }
 
 #imgheader{
@@ -90,8 +104,13 @@ img{
 #initialsLogo, #gitHubLink, #linkedInLink,#resumeLink:visited{
     color: white;
     
-    
 }
+
+#gitHubLink, #linkedInLink,#resumeLink, .projectTitle{
+    font-family: aqua,Helvetica,sans-serif;
+    text-transform: uppercase;
+}
+
 
 
 /*prjoect titles*/
