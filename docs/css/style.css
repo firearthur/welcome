@@ -75,7 +75,7 @@ img{
 }
 
 .description {
-  font-family: "Lato",sans-serif;
+  font-family: aqua,sans-serif;
   font-size: 1.2em;
   transition: .5s ease;
   opacity: 0;
