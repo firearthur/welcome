@@ -32,7 +32,7 @@
 }
 
 #imgheader{
-    background-color: #ecf0f1;
+    background-color: white;
     color: #435a6b;
     padding:2% 4%;
     margin-bottom: 1%;
@@ -41,6 +41,8 @@
 
 .navbar{
     background-color: #435a6b;
+    border:none;
+    border-radius: 0;
     
 }
 .navbar-default .navbar-nav>li>a{
@@ -169,4 +171,9 @@ img{
 
 .navbar-default .navbar-toggle .icon-bar{
     background-color:white;
+}
+
+
+body{
+    background-color: #ecf0f1;
 }

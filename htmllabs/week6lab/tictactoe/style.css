@@ -1,0 +1,17 @@
+/* Styles go here */
+#tictactoe{
+    width: 380px;
+    height:380px;
+    margin:auto;
+    font-size: 75px
+}
+
+.cell{
+    border:1px solid black;
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    margin:0;
+    text-align: center;
+    padding: 0;
+}
