@@ -1,19 +1,19 @@
 @font-face {
     font-family: gothicModern;
-    src: url(../fonts/effectivepower.otf);
+    src: url(../assets/fonts/effectivepower.otf);
 
     
 }
 
 @font-face {
     font-family: polya;
-    src: url(../fonts/polya.otf);
+    src: url(../assets/fonts/polya.otf);
 
 }
 
 @font-face {
     font-family: aqua;
-    src: url(../fonts/aqua.ttf);
+    src: url(../assets/fonts/aqua.ttf);
 
     
 }
