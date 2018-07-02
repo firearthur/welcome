@@ -1,132 +1,189 @@
 <!DOCTYPE html>
 <html lan="eng">
-    <head>
 
-        <title>Welcome</title>
-        <meta name="viewport" content="width=device-width, user-scalable=no">
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-        
-        
-        <!--favicon-->
-        <link rel="shortcut icon" href="assets/imgs/favicon.ico"/>
-        
-    </head>
-    <body>
+<head>
+
+  <title>Arthur | Software Engineer</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <!--favicon-->
+  <link rel="shortcut icon" href="assets/imgs/favicon.ico" />
+
+</head>
+
+<body>
+  <div id="particle-canvas"></div>
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a id="initialsLogo" class="navbar-brand" href="#">A A</a>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a id="gitHubLink" class="navItem" target="_blank" rel="noopener" href="https://github.com/firearthur">GitHub</a>
+            </li>
+            <li>
+              <a id="linkedInLink" class="navItem" target="_blank" rel="noopener" href="https://www.linkedin.com/in/arthuralbegov/">LinkedIn</a>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a id="resumeLink" class="navItem" target="_blank" rel="noopener" href="assets/files/arthurAlbegovResume.pdf">Résumé</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <div id="imgheader" class="container">
+    <div class="row">
+      <article>
         <header>
-            <nav class="navbar navbar-default">
-              <div class="container-fluid">
-        
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a id="initialsLogo" class="navbar-brand" href="#">A A</a>
-                </div>
-            
-                
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav">
-                    <li><a id="gitHubLink" class="navItem" target="_blank" rel="noopener" href="https://github.com/firearthur">GitHub</a></li>
-                    <li><a id="linkedInLink" class="navItem" target="_blank" rel="noopener" href="https://www.linkedin.com/in/arthur-albegov-7a7755132">LinkedIn</a></li>
-                  </ul>
+          <h1 id="welcomeTitle" class="text-center ">ARTHUR ALBEGOV</h1>
+        </header>
+      </article>
+    </div>
+  </div>
 
-                  <ul class="nav navbar-nav navbar-right">
-                    <li><a id="resumeLink" class="navItem" target="_blank" rel="noopener" href="assets/files/resume.pdf">Résumé</a></li>
-                    
-                  </ul>
+
+  <div id="mainContent" class="container">
+
+    <section>
+
+      <h2 id="applications-title" class="section-title">Applications</h2>
+
+      <div class="row">
+        <div id="instagreen" class="col-md-4 imgDiv">
+          <figure>
+            <a class="projectImg" target="_blank" rel="noopener" href="https://instagreen.herokuapp.com">
+              <img src="assets/imgs/instagreen.gif"></img>
+              <div class="description">
+                Media sharing and social platform.
+              </div>
+            </a>
+            <figcaption class="text-center ">
+              <div class="row">
+                <div class="projectTitle col-md-6">
+                  <a target="_blank" rel="noopener" href="https://instagreen.herokuapp.com">INSTAGREEN</a>
+                </div>
+                <div class="projectTitle col-md-6">
+                  <a target="_blank" rel="noopener" href="https://github.com/instagreen/instagreen">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                  </a>
                 </div>
               </div>
-            </nav>    
-        </header>
-        
-        
-        <div id="imgheader" class="container">
-            <div class="row">
-                <article>
-                    <header>
-                        <h1 id="welcomeTitle" class = "text-center ">ARTHUR ALBEGOV</h1>
-                    </header>                
-                </article>
-            </div>
+            </figcaption>
+          </figure>
         </div>
-        
-        
-        <div id="mainContent" class="container">
-            
-            <section>
-                <div class="row">
-                    <div id="instagreen" class="col-md-12 imgDiv">
-                        <figure>
-                            <a class="projectImg" target="_blank" rel="noopener" href="https://instagreen.herokuapp.com">
-                                <img  src="assets/imgs/instagreen.png"></img>
-                                    <div class="description">
-                                         Media sharing and social platform.
-                                     </div>
-                            </a> 
-                            <figcaption class="text-center projectTitle">
-                                <a target="_blank" rel="noopener" href="https://instagreen.herokuapp.com">INSTAGREEN</a>
-                            </figcaption>
-                        </figure>
-                    </div>        
+
+        <div id="movieSearchDiv" class="col-md-4 imgDiv">
+          <figure>
+            <a class="projectImg" target="_blank" rel="noopener" href="https://th-movie-search.herokuapp.com">
+              <img src="assets/imgs/moviesearch.gif"></img>
+              <div class="description">
+                Movie search database.
+              </div>
+            </a>
+
+            <figcaption class="text-center ">
+              <div class="row">
+                <div class="projectTitle col-md-6">
+                  <a target="_blank" rel="noopener" href="https://th-movie-search.herokuapp.com">MOVIE SEARCH</a>
                 </div>
-                
-                <div class="row">
-                    <div id="colorsGameDiv" class="col-md-4 imgDiv">
-                        <figure>
-                            <a class="projectImg" target="_blank" rel="noopener" href="projects/colorsgame/colorsgame.html">
-                                <img  src="assets/imgs/colorsgameimg.png"></img>
-                                    <div class="description">
-                                         Try to guess the color from the RGB value.
-                                     </div>
-                            </a> 
-                            <figcaption class="text-center projectTitle">
-                                <a target="_blank" rel="noopener" href="projects/colorsgame/colorsgame.html">COLORS GAME</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div id="foodllcDiv" class="col-md-4 imgDiv">
-                        <figure>
-                            <a class="projectImg" target="_blank" rel="noopener" href="projects/foodllc/foodllc.html">
-                                <img  src="assets/imgs/food-llcimg.png"></img>
-                                    <div class="description">
-                                        Bootstrap responsive design.
-                                    </div>
-                            </a> 
-                            <figcaption class="text-center projectTitle">
-                                <a target="_blank" rel="noopener" href="projects/foodllc/foodllc.html">FOOD-LLC</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div id="imgSliderDiv" class="col-md-4 imgDiv">
-                        <figure>
-                            <a class="projectImg" target="_blank" rel="noopener" href="projects/imgslider/imgslider.html">
-                                <img  src="assets/imgs/imgslider.png"></img>
-                                    <div class="description">
-                                        jQuery image slider.
-                                    </div>
-                            </a> 
-                            <figcaption class="text-center projectTitle">
-                                <a target="_blank" rel="noopener" href="projects/imgslider/imgslider.html">IMAGE SLIDER</a>
-                            </figcaption>
-                        </figure>
-                    </div>
+                <div class="projectTitle col-md-6">
+                  <a target="_blank" rel="noopener" href="https://github.com/firearthur/TH-Movie-Search">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                  </a>
                 </div>
-                
-                
-            </section>
-        
-            <!--<footer class ="footer">-->
-            <!--    just empty text-->
-            <!--</footer>    -->
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    </body>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div id="colorsGameDiv" class="col-md-4 imgDiv">
+          <figure>
+            <a class="projectImg" target="_blank" rel="noopener" href="projects/colorsgame/colorsgame.html">
+              <img src="assets/imgs/colorsgame.gif"></img>
+              <div class="description">
+                Try to guess the color from the RGB value.
+              </div>
+            </a>
+            <figcaption class="text-center ">
+              <div class="row">
+                <div class="projectTitle col-md-6">
+                  <a target="_blank" rel="noopener" href="projects/colorsgame/colorsgame.html">COLORS GAME</a>
+                </div>
+                <div class="projectTitle col-md-6">
+                  <a target="_blank" rel="noopener" href="https://github.com/firearthur/colorsGame">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+
+      <!-- <div class="row">
+        <div id="foodllcDiv" class="col-md-4 imgDiv">
+          <figure>
+            <a class="projectImg" target="_blank" rel="noopener" href="projects/foodllc/foodllc.html">
+              <img src="assets/imgs/food-llcimg.png"></img>
+              <div class="description">
+                Bootstrap responsive design.
+              </div>
+            </a>
+            <figcaption class="text-center projectTitle">
+              <a target="_blank" rel="noopener" href="projects/foodllc/foodllc.html">FOOD-LLC</a>
+            </figcaption>
+          </figure>
+        </div>
+        <div id="imgSliderDiv" class="col-md-4 imgDiv">
+          <figure>
+            <a class="projectImg" target="_blank" rel="noopener" href="projects/imgslider/imgslider.html">
+              <img src="assets/imgs/imgslider.png"></img>
+              <div class="description">
+                jQuery image slider.
+              </div>
+            </a>
+            <figcaption class="text-center projectTitle">
+              <a target="_blank" rel="noopener" href="projects/imgslider/imgslider.html">IMAGE SLIDER</a>
+            </figcaption>
+          </figure>
+        </div>
+      </div> -->
+      
+      <h2 id="repos-title" class="section-title">Github Repos</h2>
+    </section>
+
+    <!--<footer class ="footer">-->
+    <!--    just empty text-->
+    <!--</footer>    -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+
 </html>
