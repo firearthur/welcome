@@ -52,7 +52,7 @@ section img {
 
 figcaption {
   color: #435a6b;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: bold;
 }
 
@@ -109,20 +109,24 @@ img {
 
 /*prjoect titles*/
 
-.projectTitle a {
+.projectTitle, .projectTitle a {
   color: #435a6b;
 }
 
-.projectTitle a:hover {
-  color: #435a6b;
-  text-decoration: none;
-}
-
-.projectTitle a:focus {
+.projectTitle:hover, .projectTitle a:hover {
   color: #435a6b;
   text-decoration: none;
 }
 
+.projectTitle:visited, .projectTitle a:visited {
+  color: #435a6b;
+  text-decoration: none;
+}
+
+.projectTitle:focus, .projectTitle a:focus {
+  color: #435a6b;
+  text-decoration: none;
+}
 /* links hover effects*/
 
 .navItem::before, .projectTitle::before, .navItem::after, .projectTitle::after {

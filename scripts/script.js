@@ -35,9 +35,13 @@ const showTitleTypingOnScroll = function (){
 
 const showSectionTitlesOnScroll = function (){
   $(window).scroll(function() {
+    console.log($('#repos-title').offset().top)
     const scrolledPixels = $(this).scrollTop();
     if ( scrolledPixels > 170){
       $('#applications-title').addClass('text-slide-back');
+    }
+    if ( scrolledPixels > 650 ) {
+      // $('#repos-title').addClass('text-slide-back');
     }
   });
 }
