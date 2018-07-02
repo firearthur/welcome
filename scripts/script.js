@@ -33,10 +33,18 @@ const showTitleTypingOnScroll = function (){
   });
 }
 
+const showSectionTitlesOnScroll = function (){
+  $(window).scroll(function() {
+    const scrolledPixels = $(this).scrollTop();
+    if ( scrolledPixels > 170){
+      $('#applications-title').addClass('text-slide-back');
+    }
+  });
+}
+
+
 $(document).ready(function(){
   showTitleTypingOnScroll();
-  
-
-
+  showSectionTitlesOnScroll();
 });
 

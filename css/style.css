@@ -29,7 +29,7 @@
   color: #435a6b;
   padding: 2% 4%;
   margin-top: 70px;
-  margin-bottom: 70px;
+  /* margin-bottom: 35px; */
 }
 
 .navbar {
@@ -52,7 +52,7 @@ section img {
 
 figcaption {
   color: #435a6b;
-  font-size: 1.5em;
+  font-size: 1.1em;
   font-weight: bold;
 }
 
@@ -162,6 +162,8 @@ img {
 
 body {
   background-color: #ecf0f1;
+  font-family: aqua, Helvetica, sans-serif;
+  color: #435a6b;
 }
 
 #particle-canvas {
@@ -173,7 +175,6 @@ body {
 #welcomeTitle {
   opacity: 0;
 }
-
 
 #welcomeTitle.typingText {
   opacity: 1;
@@ -210,4 +211,15 @@ body {
   50% {
     border-color: #435a6b;
   }
+}
+
+.section-title {
+  margin: 40px auto 70px auto;
+  text-align: center;
+  text-indent: -2000px;
+}
+
+.text-slide-back {
+  text-indent: 0;
+  transition: text-indent 2s ease-in;  
 }
