@@ -28,8 +28,8 @@
   background-color: white;
   color: #435a6b;
   padding: 2% 4%;
-  margin-top: 30px;
-  /*margin-bottom: 1%;*/
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .navbar {
@@ -86,8 +86,8 @@ img {
 }
 
 .projectTitle {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 #gitHubLink:hover, #linkedInLink:hover, #resumeLink:hover, #initialsLogo:hover {
@@ -174,14 +174,20 @@ body {
   opacity: 0;
 }
 
+
 #welcomeTitle.typingText {
   opacity: 1;
-  overflow: hidden;
-  border-right: .15em solid #435a6b;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: .15em;
-  animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@media screen and (min-width: 768px) {
+  #welcomeTitle.typingText {
+    overflow: hidden;
+    border-right: .15em solid #435a6b;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+  }
 }
 
 /* The typing effect */
